@@ -249,31 +249,29 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade | 
 |------|-----------------------------------------|----| 
-|RF-001| A aplicação deve permitir que o usuário gerencie suas tarefas | ALTA |  
-|RF-002| A aplicação deve permitir a emissão de um relatório de tarefas realizadas no mês   | MÉDIA | 
+|RF-001| Permitir que usuários criem suas próprias coleções | ALTA |  
+|RF-002| Permitir que usuários excluam suas próprias coleções | ALTO | 
+|RF-003| Permitir que usuários alterem suas próprias coleções | ALTO | 
+|RF-004| Categorizar suas próprias coleções | ALTO | 
+|RF-005| Adicionar itens desejados a sua coleção | MÉDIA | 
+|RF-006| Emprestar itens da coleção para outro usuário	 | MÉDIA | 
+|RF-007| Realizar cadastro no sistema | ALTO | 
+|RF-008| Realização de login no sistema | ALTO | 
+|RF-009| Realização de alteração de dados pessoais | ALTO | 
+|RF-010| Criação de subgrupos dentro de suas coleções | ALTO | 
+|RF-011| Histórico de empréstimos | MÉDIA | 
 
 
 ### Requisitos não Funcionais
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| A aplicação deve ser responsiva | MÉDIA | 
-|RNF-002| A aplicação deve processar requisições do usuário em no máximo 3s |  BAIXA | 
-
-Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
-
-- [Requisitos Funcionais
- (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
- correspondem a uma funcionalidade que deve estar presente na
-  plataforma (ex: cadastro de usuário).
-- [Requisitos Não Funcionais
-  (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
-  correspondem a uma característica técnica, seja de usabilidade,
-  desempenho, confiabilidade, segurança ou outro (ex: suporte a
-  dispositivos iOS e Android).
-Lembre-se que cada requisito deve corresponder à uma e somente uma
-característica alvo da sua solução. Além disso, certifique-se de que
-todos os aspectos capturados nas Histórias de Usuário foram cobertos.
+|RNF-001| Tempo de resposta do sistema | ALTO | 
+|RNF-002| Capacidade de lidar com vários usuários ao mesmo tempo |  ALTO | 
+|RNF-003| Proteção de dados |  ALTO | 
+|RNF-004| Impedir ataques cyberneticos |  ALTO | 
+|RNF-005| Manutenção do sistema |  ALTO | 
+|RNF-006| Portabilidade para vários dispositivos	 |  MÉDIO | 
 
 ## Restrições
 
@@ -281,12 +279,6 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 |ID| Restrição                                             |
 |--|-------------------------------------------------------|
-|01| O projeto deverá ser entregue até o final do semestre |
-|02| Não pode ser desenvolvido um módulo de backend        |
+|01| Restrição de tempo de um semestre para concluir o projeto |
+|02| Dificuldade de manter contato constante com os colegas presencialmente para o desenvolvimento |
 
-
-Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
-
-> **Links Úteis**:
-> - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
