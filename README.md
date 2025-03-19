@@ -22,7 +22,7 @@ Nosso projeto surge para resolver essa necessidade de forma acessível, simples 
 
 ## Orientador
 
-* Nome completo do professor 1
+* Hayala Nepomuceno Curto
 
 # Planejamento
 
