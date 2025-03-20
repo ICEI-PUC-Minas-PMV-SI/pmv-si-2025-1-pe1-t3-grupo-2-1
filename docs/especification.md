@@ -207,17 +207,7 @@ Registro fácil e rápido, categorização clara e possibilidade de exportar dad
 #### Citação Representativa:
 "Minha coleção é meu tesouro, e quero mantê-la organizada para que ninguém duvide do quão incrível ela é!"
 
-Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
-
-> **Links Úteis**:
-> - [Rock Content](https://rockcontent.com/blog/personas/)
-> - [Hotmart](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [Mapa de Empatia](https://resultadosdigitais.com.br/blog/mapa-da-empatia/)
-> - [Mapa de Stalkeholders](https://www.racecomunicacao.com.br/blog/como-fazer-o-mapeamento-de-stakeholders/)
->
-Lembre-se que você deve ser enumerar e descrever precisamente e personalizada todos os clientes ideais que sua solução almeja.
+---
 
 ## Histórias de Usuários
 
@@ -227,10 +217,20 @@ Eu Anderson, Estudioso, quero  organizar, e achar os conteúdos com rapidez para
 
 Com base na análise das personas forma identificadas as seguintes histórias de usuários:
 
-|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
-|--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Quero consultar e listar os itens da minha coleção | Verificar a existencia de um item nela|
-|Usuário do sistema  | Quero ver detalhes de um item da minha coleção | Verificar suas informações e saber sua localização|
+|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE`                                        |PARA ... `MOTIVO/VALOR`                                                                |
+|--------------------|---------------------------------------------------------------------------|---------------------------------------------------------------------------------------|
+|Usuário do sistema  | Quero cadastrar uma nova coleção                                          | Para conseguir iniciar a gestão da mesma                                                   |
+|Usuário do sistema  | Quero cadastrar atributos importantes para minha coleção                  | Para que eu consiga caracterizar os itens de forma assertiva                               |
+|Usuário do sistema  | Quero consultar e listar os itens da minha coleção                        | Para verificar a existencia de um item nela                                                |
+|Usuário do sistema  | Quero ver detalhes de um item da minha coleção                            | Para verificar suas informações e saber sua localização                                    |
+|Usuário do sistema  | Quero cadastrar um item na minha coleção                                  | Para adicionar itens novos que eu venha a adquirir para a coleção                          |
+|Usuário do sistema  | Quero poder atualizar os detalhes de um item da minha coleção             | Para corrigir algum possível erro e atualizar alguma informação que mudou sobre esse item  |
+|Usuário do sistema  | Quero categorizar os itens da minha coleção                               | Para conseguir classificar meus itens de acordo com suas caracteristicas                   |
+|Usuário do sistema  | Quero poder exportar os dados da minha coleção                            | Para que eu possa utilizar dessas informações mesmo fora da plataforma                |
+|Usuário do sistema  | Quero informar que um item da minha coleção está emprestado               | Para mapear a localização do mesmo                                                    |
+|Usuário do sistema  | Quero informar na coleção itens que ainda não tenho mas desejo adquirir   | Para me auxiliar em momentos em que posso aumentar minha coleção                      |
+|Usuário do sistema  | Quero marcar que minha coleção está completa                              | Para identificar a finalização da coleção                                             |
+
 
 Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
 
