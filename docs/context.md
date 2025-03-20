@@ -12,27 +12,24 @@ Ou tentou revisitar seu acervo pessoal, apenas para perceber que não lembrava d
 
 A organização e o registro de coleções, embora pareçam simples, podem se tornar um grande desafio. Muitas pessoas, especialmente crianças e idosos, enfrentam dificuldades para manter o controle de seus itens, o que pode levar a esquecimentos, compras duplicadas e até mesmo à perda de peças valiosas. Essa falta de gestão eficiente compromete não apenas a praticidade do dia a dia, mas também o verdadeiro propósito de uma coleção: a conexão, o valor sentimental e a satisfação de tê-la sempre acessível e bem organizada.
 
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
 
 ## Objetivos
 
-Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. 
-
-Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
+ Objetivo Geral 
  
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
+Desenvolver uma solução eficaz, acessível e intuitiva para a falta de gestão nos acervos pessoais dos futuros usuários.
+
+Objetivo Específico
+
+> - Desenvolver uma plataforma onde os usuário cadastrem os objetos de seu acervo pessoal de forma prática e simples.
+> - Disponibilizar ferramentas de organização aos mais diversos modelos e variações de acervos pessoais (ex: jogos, brinquedos, livros, DVD’s, cartões, selos, moedas etc.)
+> - Proporcionar formas de compartilhamento de seus acervos com outras pessoas e futuros possíveis usuários.
+
 
 ## Justificativa
 
 A gestão de acervos e coleções pessoais representa um desafio significativo para pessoas comuns, pesquisadores e colecionadores. Frequentemente, esses indivíduos recorrem a soluções improvisadas, como planilhas ou anotações manuais, que se mostram ineficazes para organizar, catalogar e recuperar informações de forma eficiente. Com o avanço das tecnologias digitais, surge a oportunidade de desenvolver uma solução que atenda a essa necessidade de maneira intuitiva e acessível. A criação desta aplicação justifica-se pela crescente demanda por ferramentas digitais que auxiliem na gestão eficiente de acervos e coleções, especialmente considerando que muitos potenciais usuários não possuem conhecimentos tecnológicos avançados e necessitam de uma interface simplificada e amigável.
 
-
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
 
 ## Público-Alvo
 
