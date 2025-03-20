@@ -18,6 +18,7 @@ Nosso projeto surge para resolver essa necessidade de forma acessível, simples 
 * Rafael Gomes Nascimento
 * Lucas Rodrigues Rosa
 * Frederico Prado Corrêa
+* Juan Dos Santos Monteiro Claros
 
 
 ## Orientador
