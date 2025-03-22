@@ -129,21 +129,20 @@ Registro fácil e rápido, categorização clara e possibilidade de exportar dad
 
 ## Histórias de Usuários
 
-|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE`                                        |PARA ... `MOTIVO/VALOR`                                                                |
-|--------------------|---------------------------------------------------------------------------|---------------------------------------------------------------------------------------|
-
-|Usuário do sistema  | Me cadastrar na aplicação                                                 | Para conseguir usá-la                                                                      |
-|Usuário do sistema  | Quero cadastrar uma nova coleção                                          | Para conseguir iniciar a gestão da mesma                                                   |
-|Usuário do sistema  | Quero cadastrar atributos importantes para minha coleção                  | Para que eu consiga caracterizar os itens de forma assertiva                               |
-|Usuário do sistema  | Quero consultar e listar os itens da minha coleção                        | Para verificar a existencia de um item nela                                                |
-|Usuário do sistema  | Quero ver detalhes de um item da minha coleção                            | Para verificar suas informações e saber sua localização                                    |
-|Usuário do sistema  | Quero cadastrar um item na minha coleção                                  | Para adicionar itens novos que eu venha a adquirir para a coleção                          |
-|Usuário do sistema  | Quero poder atualizar os detalhes de um item da minha coleção             | Para corrigir algum possível erro e atualizar alguma informação que mudou sobre esse item  |
-|Usuário do sistema  | Quero categorizar os itens da minha coleção                               | Para conseguir classificar meus itens de acordo com suas caracteristicas                   |
-|Usuário do sistema  | Quero poder exportar os dados da minha coleção                            | Para que eu possa utilizar dessas informações mesmo fora da plataforma                     |
-|Usuário do sistema  | Quero informar que um item da minha coleção está emprestado               | Para mapear a localização do mesmo                                                         |
-|Usuário do sistema  | Quero informar na coleção itens que ainda não tenho mas desejo adquirir   | Para me auxiliar em momentos em que posso aumentar minha coleção                           |
-|Usuário do sistema  | Quero marcar que minha coleção está completa                              | Para identificar a finalização da coleção                                                  |
+|EU COMO... `PERSONA` | QUERO/PRECISO ... `FUNCIONALIDADE`                                        | PARA ... `MOTIVO/VALOR`                                                                      |
+|---------------------|---------------------------------------------------------------------------|--------------------------------------------------------------------------------------------|
+| Usuário do sistema  | Me cadastrar na aplicação                                                 | Para conseguir usá-la                                                                      |
+| Usuário do sistema  | Quero cadastrar uma nova coleção                                          | Para conseguir iniciar a gestão da mesma                                                   |
+| Usuário do sistema  | Quero cadastrar atributos importantes para minha coleção                  | Para que eu consiga caracterizar os itens de forma assertiva                               |
+| Usuário do sistema  | Quero consultar e listar os itens da minha coleção                        | Para verificar a existencia de um item nela                                                |
+| Usuário do sistema  | Quero ver detalhes de um item da minha coleção                            | Para verificar suas informações e saber sua localização                                    |
+| Usuário do sistema  | Quero cadastrar um item na minha coleção                                  | Para adicionar itens novos que eu venha a adquirir para a coleção                          |
+| Usuário do sistema  | Quero poder atualizar os detalhes de um item da minha coleção             | Para corrigir algum possível erro e atualizar alguma informação que mudou sobre esse item  |
+| Usuário do sistema  | Quero categorizar os itens da minha coleção                               | Para conseguir classificar meus itens de acordo com suas caracteristicas                   |
+| Usuário do sistema  | Quero poder exportar os dados da minha coleção                            | Para que eu possa utilizar dessas informações mesmo fora da plataforma                     |
+| Usuário do sistema  | Quero informar que um item da minha coleção está emprestado               | Para mapear a localização do mesmo                                                         |
+| Usuário do sistema  | Quero informar na coleção itens que ainda não tenho mas desejo adquirir   | Para me auxiliar em momentos em que posso aumentar minha coleção                           |
+| Usuário do sistema  | Quero marcar que minha coleção está completa                              | Para identificar a finalização da coleção                                                  |
 
 ## Requisitos
 
