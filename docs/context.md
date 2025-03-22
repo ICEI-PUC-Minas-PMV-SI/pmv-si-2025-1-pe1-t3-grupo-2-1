@@ -7,8 +7,7 @@ Nosso projeto surge para resolver essa necessidade de forma acessível, simples 
 Dessa forma, atendemos colecionadores, professores e qualquer pessoa que precise gerenciar grandes acervos, proporcionando uma organização eficiente, quantificação precisa, classificação inteligente e melhor gestão de seus pertences. 
 
 ## Problema
-Já precisou de um item da sua coleção e ficou na dúvida se realmente o possuía? 
-Ou tentou revisitar seu acervo pessoal, apenas para perceber que não lembrava de todos os itens que o compõem? 
+Já precisou de um item da sua coleção e ficou na dúvida se realmente o possuía? Ou tentou revisitar seu acervo pessoal, apenas para perceber que não lembrava de todos os itens que o compõem?
 
 A organização e o registro de coleções, embora pareçam simples, podem se tornar um grande desafio. Muitas pessoas, especialmente crianças e idosos, enfrentam dificuldades para manter o controle de seus itens, o que pode levar a esquecimentos, compras duplicadas e até mesmo à perda de peças valiosas. Essa falta de gestão eficiente compromete não apenas a praticidade do dia a dia, mas também o verdadeiro propósito de uma coleção: a conexão, o valor sentimental e a satisfação de tê-la sempre acessível e bem organizada.
 
