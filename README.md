@@ -1,4 +1,4 @@
-# Projeto Organize & Collect
+# Projeto Organize. Collect.
 
 `CURSO: Sistemas de Informação`
 
