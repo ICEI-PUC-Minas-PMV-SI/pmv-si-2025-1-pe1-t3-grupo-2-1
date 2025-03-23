@@ -6,7 +6,7 @@
 
 `SEMESTRE: 1º`
 
-Pessoas de todas as idades acumulam acervos pessoais em casa ou no trabalho, seja uma coleção de bonecos de ação, livros, cards colecionáveis, DVDs ou qualquer outro item em grande quantidade. Com o tempo, organizar e gerenciar esses acervos pode se tornar um desafio, dificultando o controle do que já foi adquirido ou emprestado.
+Pessoas de todas as idades acumulam acervos pessoais em casa ou no trabalho, seja uma coleção de bonecos de ação, livros, cards colecionáveis, DVDs ou qualquer outro item físico ou gigital em grande quantidade. Com o tempo, organizar e gerenciar esses acervos pode se tornar um desafio, dificultando o controle do que já foi adquirido ou emprestado.
 
 Nosso projeto surge para resolver essa necessidade de forma acessível, simples e eficaz, utilizando a tecnologia como aliada na organização. Com nossa solução, será possível registrar e catalogar itens com facilidade, além de contar com uma área específica para controlar empréstimos, permitindo anotar datas e destinatários.
 
