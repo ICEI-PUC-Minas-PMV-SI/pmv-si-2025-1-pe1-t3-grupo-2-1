@@ -11,13 +11,16 @@ Detalhe os layouts que serão utilizados. Apresente onde será colocado o logo d
 
 ## Cores
 
-Apresente a paleta de cores que será utilizada. Uma ferramenta interessante para a criação de palestas de cores é o *Adobe Color* ([https://color.adobe.com/pt/create/color-wheel](https://color.adobe.com/pt/create/color-wheel)).
+As cores escolhidas para a construção do layout foram baseadas no *Material design*. Foram escolhidas três cores iniciais (Primaria: #005A84, secundária: #5C007F e terciária: #978CA9) e utilizado a ferramenta [Material theme builder](https://material-foundation.github.io/material-theme-builder/) para que fosse gerados os shades das mesmas de acordo com os componentes presentes no Material design.
+Ficou definido o uso do light theme como padrão para a aplicação.
+Abaixo as cores e shades gerados para uso na aplicação:
 
+![image](img/color-sechemes.png)
 
 ## Tipografia
 
-Apresente as fontes que serão utilizadas e sua função no site. As principais funções são: Título de página, Título de Seção, Rótulos de componentes e Corpo de Texto.
-
+As fontes utilizadas no site serão padronizadas pelo próprio Material design de acordo com a imagem abaixo
+![image](img/tipografia.png)
 
 ## Iconografia
 
