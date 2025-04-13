@@ -1,6 +1,6 @@
 # Introdução
 
-Pessoas de todas as idades acumulam acervos pessoais em casa ou no trabalho, seja uma coleção de bonecos de ação, livros, cards colecionáveis, DVDs ou qualquer outro item em grande quantidade. Com o tempo, organizar e gerenciar esses acervos pode se tornar um desafio, dificultando o controle do que já foi adquirido ou emprestado.
+Pessoas de todas as idades acumulam acervos pessoais em casa ou no trabalho, seja uma coleção de bonecos de ação, livros, cards colecionáveis, DVDs ou qualquer outro item físico ou digital em grande quantidade. Com o tempo, organizar e gerenciar esses acervos pode se tornar um desafio, dificultando o controle do que já foi adquirido ou emprestado.
 
 Nosso projeto surge para resolver essa necessidade de forma acessível, simples e eficaz, utilizando a tecnologia como aliada na organização. Com nossa solução, será possível registrar e catalogar itens com facilidade, além de contar com uma área específica para controlar empréstimos, permitindo anotar datas e destinatários.
 
@@ -21,7 +21,7 @@ Desenvolver uma solução eficaz, acessível e intuitiva para a falta de gestão
 Objetivo Específico
 
 > - Desenvolver uma plataforma onde os usuário cadastrem os objetos de seu acervo pessoal de forma prática e simples.
-> - Disponibilizar ferramentas de organização aos mais diversos modelos e variações de acervos pessoais (ex: jogos, brinquedos, livros, DVD’s, cartões, selos, moedas etc.)
+> - Disponibilizar ferramentas de organização aos mais diversos modelos e variações de acervos pessoais (ex: jogos, brinquedos,documentos, livros, DVD’s, cartões, selos, moedas etc.)
 > - Proporcionar formas de compartilhamento de seus acervos com outras pessoas e futuros possíveis usuários.
 
 
@@ -32,4 +32,4 @@ A gestão de acervos e coleções pessoais representa um desafio significativo p
 
 ## Público-Alvo
 
-O público-alvo abrange pessoas de qualquer faixa etária, gênero ou etnia que possuam acesso à internet e busquem uma solução eficiente para organizar, gerir, catalogar ou avaliar seus itens de acervos, sejam eles de natureza pessoal, acadêmica ou profissional. Esta ferramenta atende tanto colecionadores amadores quanto profissionais que necessitam de um sistema confiável para administrar suas coleções.
+O público-alvo abrange pessoas de qualquer faixa etária, gênero ou etnia que possuam acesso à internet e busquem uma solução eficiente para organizar, gerir, catalogar ou avaliar seus itens de acervos físicos ou digitais, sejam eles de natureza pessoal, acadêmica ou profissional. Esta ferramenta atende tanto colecionadores amadores quanto profissionais que necessitam de um sistema confiável para administrar suas coleções.
