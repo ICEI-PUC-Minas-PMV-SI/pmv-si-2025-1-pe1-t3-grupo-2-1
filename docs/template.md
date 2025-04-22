@@ -11,7 +11,7 @@ Detalhe os layouts que serão utilizados. Apresente onde será colocado o logo d
 
 ## Cores
 
-As cores escolhidas para a construção do layout foram baseadas no *Material design*. Foram escolhidas três cores iniciais (Primaria: #005A84, secundária: #5C007F e terciária: #978CA9) e utilizado a ferramenta [Material theme builder](https://material-foundation.github.io/material-theme-builder/) para que fosse gerados os shades das mesmas de acordo com os componentes presentes no Material design.
+As cores escolhidas para a construção do layout foram baseadas no *Material design*. Foram escolhidas três cores iniciais (Primaria: #005A84, secundária: #5C007F e terciária: #978CA9) e utilizado a ferramenta [Material theme builder](https://material-foundation.github.io/material-theme-builder/) gerar os shades das mesmas de acordo com os componentes presentes no Material design.
 Ficou definido o uso do light theme como padrão para a aplicação.
 Abaixo as cores e shades gerados para uso na aplicação:
 

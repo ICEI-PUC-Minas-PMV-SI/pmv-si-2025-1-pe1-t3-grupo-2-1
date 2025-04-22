@@ -168,9 +168,9 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-014| O sistema deve permitir a exclusão de itens cadastrados.                                                                                                       | MÉDIO |
 |RF-015| O sistema deve permitir a exclusão de uma coleção inteira, caso desejado pelo usuário.                                                                         | MÉDIO |
 |RF-017| O sistema deve permitir que o usuário anexe imagens aos itens da coleção.                                                                                      | MÉDIO |
-|RF-018| O sistema deve permitir a geração de relatórios estatísticos sobre a coleção (quantidade de itens, valor total estimado, categorias mais frequentes, etc.).    | BAIXO |
 |RF-019| O sistema deve informar ao usuário os prazos de devolução de itens emprestados.                                                                                | MÉDIO |
 |RF-016| O sistema deve fornecer uma interface intuitiva para visualização da coleção por categorias, status ou outros filtros.                                         | MÉDIO |
+|RF-018| O sistema deve permitir a geração de relatórios estatísticos sobre a coleção (quantidade de itens, valor total estimado, categorias mais frequentes, etc.).    | BAIXO |
 
 ### Requisitos não Funcionais
 
