@@ -12,6 +12,7 @@ Nosso layout ficou assim na prática:
 
 A Logo sera em cima, limpa, simples e organizada.
 abaixo imagem da Logo:
+
 ![Image](https://github.com/user-attachments/assets/5fdb552e-7f45-4375-bf48-5b0c193bfb1a)
 
 
