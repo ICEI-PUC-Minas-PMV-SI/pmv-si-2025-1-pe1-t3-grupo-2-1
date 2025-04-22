@@ -5,8 +5,14 @@ Layout padrão do site (HTML e CSS) que será utilizado em todas as páginas com
 Escolhemos um designer mais simples e limpo, para facilitar a visão do usuário. As cores que transmitem calma e tranquilidade, justamente, o que propomos com o nosso projeto, Organizar e Colecionar.  
 
 ## Design
-https://private-user-images.githubusercontent.com/200012316/436299020-f72a485b-d77b-40e2-b3a6-3aa3834fc77a.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDUzNjM5NjQsIm5iZiI6MTc0NTM2MzY2NCwicGF0aCI6Ii8yMDAwMTIzMTYvNDM2Mjk5MDIwLWY3MmE0ODViLWQ3N2ItNDBlMi1iM2E2LTNhYTM4MzRmYzc3YS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwNDIyJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDQyMlQyMzE0MjRaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT00MTk1NWIzMjZlNGFkZmUzNzE2YTRlMjdhZjQyYmU0YTQ5ZTFhYjNiZTg1ZjljZmE1ZjkxMzkwODY2ODkwOWI2JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.4Yq73iCQJVX-AztLwyQUaQoZGFEZ2lL9BpuDfMaCAyc
-Detalhe os layouts que serão utilizados. Apresente onde será colocado o logo do sistema. Defina os menus padrões, entre outras coisas.
+
+Nosso layout ficou assim na prática:
+
+![Image](https://github.com/user-attachments/assets/49c96d81-3797-4795-b802-3e71395e3925)
+
+A Logo sera em cima, limpa, simples e organizada.
+abaixo imagem da Logo:
+![Image](https://github.com/user-attachments/assets/5fdb552e-7f45-4375-bf48-5b0c193bfb1a)
 
 
 ## Cores
