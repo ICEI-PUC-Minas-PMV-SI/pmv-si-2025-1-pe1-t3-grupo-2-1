@@ -14,7 +14,7 @@
     <div class="container mt-1 gap-2 d-flex flex-column">
         <div class="row justify-content-start align-middle text-center p-2">
             <div class="col-auto">
-                <a href="colecao/novo.html" class="">
+                <a href="../index.html" class="">
                     <i class="fs-1 bi bi-arrow-left-circle"></i>
                 </a>
             </div>
@@ -43,7 +43,7 @@
             </div>
         </div>
 
-        <ul class="nav nav-tabs" id="itemsTab" role="tablist">
+        <ul class="nav nav-tabs w-100" id="itemsTab" role="tablist">
             <li role="presentation" class="nav-item">
                 <button type="button" class="nav-link active" id="collection-list" data-bs-toggle="tab" data-bs-target="#collection-list-tab-pane" role="tab" aria-controls="collection-list-tab-pane" aria-selected="true">Itens da coleção</button>
             </li>
@@ -52,13 +52,64 @@
             </li>
         </ul>
         <div class="tab-content" id="itemsTabContent">
-            <div id="collection-list-tab-pane" class="tab-pane fade show active" role="tabpanel" aria-labelledby="collection-list-tab" tabindex="0">
-                <h3>Itens da coleção</h3>
-                <p>Conteúdo da lista de desejo.</p>
+            <div id="collection-list-tab-pane" class="tab-pane show active" role="tabpanel" aria-labelledby="collection-list-tab" tabindex="0">
+                <div class="d-flex justify-content-between align-items-center flex-column gap-2">
+                    <div class="d-flex flex-row justify-content-between align-items-center gap-2 w-100">
+                        <div class="col-auto">
+                            <label for="search" class="col-12 mt-3"></label>
+                            <input type="text" id="search" class="form-control" placeholder="Pesquisar">
+                        </div>
+                        <div class="col-auto h-100 d-flex flex-column justify-content-center align-items-center">
+                            <button type="button" class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                Novo item
+                            </button>
+                        </div>
+                    </div>
+                        
+                    <ul class="list-group w-100">
+                        <li class="list-group-item d-flex justify-content-between align-items-start">
+                            <div class="fw-bold">Item 1</div>
+                            <span class="badge bg-primary rounded-pill">Categoria um</span>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start">
+                            <div class="fw-bold">Item 1</div>
+                            <span class="badge bg-primary rounded-pill">Categoria um</span>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start">
+                            <div class="fw-bold">Item 1</div>
+                            <span class="badge bg-primary rounded-pill">Categoria um</span>
+                        </li>
+                        
+                      </ul>
+                </div>
             </div>
-            <div id="wish-list-tab-pane" class="tab-pane fade" role="tabpanel" aria-labelledby="wish-list-tab" tabindex="0">
-                <h3>Lista de desejo</h3>
-                <p>Conteúdo da lista de desejo.</p>
+            <div id="wish-list-tab-pane" class="tab-pane" role="tabpanel" aria-labelledby="wish-list-tab" tabindex="0">
+                <div class="d-flex justify-content-between align-items-center flex-column gap-2">
+                    <div class="d-flex flex-row justify-content-between align-items-center gap-2 w-100">
+                        <div class="col-auto">
+                            <label for="search" class="col-12 mt-3"></label>
+                            <input type="text" id="search" class="form-control" placeholder="Pesquisar">
+                        </div>
+                        <div class="col-auto h-100 d-flex flex-column justify-content-center align-items-center">
+                            <button type="button" class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                Novo item
+                            </button>
+                        </div>
+                    </div>
+                        
+                    <ul class="list-group w-100">
+                        <li class="list-group-item d-flex justify-content-between align-items-start">
+                            <div class="fw-bold">Item 1</div>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start">
+                            <div class="fw-bold">Item 1</div>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start">
+                            <div class="fw-bold">Item 1</div>
+                        </li>
+                        
+                      </ul>
+                </div>
             </div>
         </div>
             
