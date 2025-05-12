@@ -1,12 +1,4 @@
 body {
-
-   
-      
-
-
-
-
-
     font-family: Arial, sans-serif;
     background-color: #f9f9f9;
     display: flex;
@@ -75,14 +67,11 @@ body {
   }
   
   .secundario {
-    
-       
     background-color: #7a0085;
     color: #ffffff;
   }
   
   .botoes {
-   
     display: flex;
     justify-content: flex-end;
     margin-top: 20px;
