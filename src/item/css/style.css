@@ -1,0 +1,67 @@
+body {
+    background-color: #F7F9FF;
+    
+}
+
+header {
+    color: #494a4e;
+    font-size: 22px;   
+}
+
+.valores{
+    background-color: #765084;
+    height: 40px;
+    width: 150px;
+    border-radius: 100px;
+    border-style: hidden;
+    font-size: 14px;
+    cursor: pointer;
+    color: white;
+    font-weight: 500;
+}
+.center {
+    background-color: #765084;
+    height: 40px;
+    width: 250px;
+    border-radius: 100px;
+    border-style: hidden;
+    font-size: 14px;
+    cursor: pointer;
+    color: white;
+    font-weight: 500;
+}
+.modal .salvar {
+    background-color: #765084;
+    height: 40px;
+    width: 100px;
+    border-radius: 100px;
+    border-style: hidden;
+    font-size: 14px;
+    cursor: pointer;
+    color: white;
+    font-weight: 500;
+
+}
+.modal .cancelar {
+    background-color: #765084;
+    height: 40px;
+    width: 100px;
+    border-radius: 100px;
+    border-style: hidden;
+    font-size: 14px;
+    cursor: pointer;
+    color: white;
+    font-weight: 500;
+}
+img {
+    width: 300px;
+    height: 200px;
+   
+}
+p {
+    cursor: pointer;
+}
+
+i {
+    cursor: pointer;
+}
