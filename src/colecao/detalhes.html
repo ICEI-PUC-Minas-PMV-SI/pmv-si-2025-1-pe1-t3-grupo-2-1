@@ -19,7 +19,7 @@
                 </a>
             </div>
             <div class="col-auto">
-                <h1>Coleção um</h1>
+                <h1>Minhas fitas cassetes</h1>
             </div>
         </div>
         <div class="row justify-content-center">
@@ -42,73 +42,72 @@
                 </button>
             </div>
         </div>
-
-        <ul class="nav nav-tabs w-100" id="itemsTab" role="tablist">
-            <li role="presentation" class="nav-item">
-                <button type="button" class="nav-link active" id="collection-list" data-bs-toggle="tab" data-bs-target="#collection-list-tab-pane" role="tab" aria-controls="collection-list-tab-pane" aria-selected="true">Itens da coleção</button>
-            </li>
-            <li role="presentation" class="nav-item">
-                <button type="button" class="nav-link active" id="wish-list" data-bs-toggle="tab" data-bs-target="#wish-list-tab-pane" role="tab" aria-controls="wish-list-tab-pane" aria-selected="false">Lista de desejo</button>
-            </li>
-        </ul>
-        <div class="tab-content" id="itemsTabContent">
-            <div id="collection-list-tab-pane" class="tab-pane show active" role="tabpanel" aria-labelledby="collection-list-tab" tabindex="0">
-                <div class="d-flex justify-content-between align-items-center flex-column gap-2">
-                    <div class="d-flex flex-row justify-content-between align-items-center gap-2 w-100">
-                        <div class="col-auto">
-                            <label for="search" class="col-12 mt-3"></label>
-                            <input type="text" id="search" class="form-control" placeholder="Pesquisar">
+        <div>
+            <ul class="nav nav-tabs w-100" id="itemsTab" role="tablist">
+                <li role="presentation" class="nav-item">
+                    <button type="button" class="nav-link active" id="collection-list" data-bs-toggle="tab" data-bs-target="#collection-list-tab-pane" role="tab" aria-controls="collection-list-tab-pane" aria-selected="true">Itens da coleção</button>
+                </li>
+                <li role="presentation" class="nav-item">
+                    <button type="button" class="nav-link" id="wish-list" data-bs-toggle="tab" data-bs-target="#wish-list-tab-pane" role="tab" aria-controls="wish-list-tab-pane" aria-selected="false">Lista de desejo</button>
+                </li>
+            </ul>
+            <div class="tab-content border rounded-bottom border-top-0 p-1" id="itemsTabContent">
+                <div id="collection-list-tab-pane" class="tab-pane show active" role="tabpanel" aria-labelledby="collection-list-tab" tabindex="0">
+                    <div class="d-flex justify-content-between align-items-center flex-column gap-2">
+                        <div class="d-flex flex-row justify-content-between align-items-center gap-2 w-100">
+                            <div class="col-auto">
+                                <input type="text" id="search" class="form-control" placeholder="Pesquisar">
+                            </div>
+                            <div class="col-auto h-100 d-flex flex-column justify-content-center align-items-center">
+                                <a href="../item/novo.html" class="btn btn-primary btn-sm" >
+                                    Novo item
+                                </a>
+                            </div>
                         </div>
-                        <div class="col-auto h-100 d-flex flex-column justify-content-center align-items-center">
-                            <button type="button" class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                                Novo item
-                            </button>
-                        </div>
+                            
+                        <ul class="list-group w-100">
+                            <li class="list-group-item d-flex justify-content-between align-items-start">
+                                <div class="fw-bold"><a href="../item/detalhes.html">Led Zeppelin - CODA</a></div>
+                                <span class="badge bg-primary rounded-pill">Rock</span>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between align-items-start">
+                                <div class="fw-bold"><a href="../item/detalhes.html">Black Sabbath - Sabbath Bloody Sabbath</a></div>
+                                <span class="badge bg-primary rounded-pill">Heavy metal</span>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between align-items-start">
+                                <div class="fw-bold"><a href="../item/detalhes.html">Pink Floyd - Pulse</a></div>
+                                <span class="badge bg-primary rounded-pill">Rock</span>
+                            </li>
+                            
+                          </ul>
                     </div>
-                        
-                    <ul class="list-group w-100">
-                        <li class="list-group-item d-flex justify-content-between align-items-start">
-                            <div class="fw-bold">Item 1</div>
-                            <span class="badge bg-primary rounded-pill">Categoria um</span>
-                        </li>
-                        <li class="list-group-item d-flex justify-content-between align-items-start">
-                            <div class="fw-bold">Item 1</div>
-                            <span class="badge bg-primary rounded-pill">Categoria um</span>
-                        </li>
-                        <li class="list-group-item d-flex justify-content-between align-items-start">
-                            <div class="fw-bold">Item 1</div>
-                            <span class="badge bg-primary rounded-pill">Categoria um</span>
-                        </li>
-                        
-                      </ul>
                 </div>
-            </div>
-            <div id="wish-list-tab-pane" class="tab-pane" role="tabpanel" aria-labelledby="wish-list-tab" tabindex="0">
-                <div class="d-flex justify-content-between align-items-center flex-column gap-2">
-                    <div class="d-flex flex-row justify-content-between align-items-center gap-2 w-100">
-                        <div class="col-auto">
-                            <label for="search" class="col-12 mt-3"></label>
-                            <input type="text" id="search" class="form-control" placeholder="Pesquisar">
+                <div id="wish-list-tab-pane" class="tab-pane" role="tabpanel" aria-labelledby="wish-list-tab" tabindex="0">
+                    <div class="d-flex justify-content-between align-items-center flex-column gap-2">
+                        <div class="d-flex flex-row justify-content-between align-items-center gap-2 w-100">
+                            <div class="col-auto">
+                                <input type="text" id="search" class="form-control" placeholder="Pesquisar">
+                            </div>
+                            <div class="col-auto h-100 d-flex flex-column justify-content-center align-items-center">
+                                <a href="../item/novo.html" class="btn btn-primary btn-sm">
+                                    Novo item
+                                </a>
+                            </div>
                         </div>
-                        <div class="col-auto h-100 d-flex flex-column justify-content-center align-items-center">
-                            <button type="button" class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                                Novo item
-                            </button>
-                        </div>
+                            
+                        <ul class="list-group w-100">
+                            <li class="list-group-item d-flex justify-content-between align-items-start">
+                                <div class="fw-bold">Black sabbath - Paranoid</div>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between align-items-start">
+                                <div class="fw-bold">Led Zeppelin - The songs remains the same</div>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between align-items-start">
+                                <div class="fw-bold">Pink Floyd - Animals</div>
+                            </li>
+                            
+                          </ul>
                     </div>
-                        
-                    <ul class="list-group w-100">
-                        <li class="list-group-item d-flex justify-content-between align-items-start">
-                            <div class="fw-bold">Item 1</div>
-                        </li>
-                        <li class="list-group-item d-flex justify-content-between align-items-start">
-                            <div class="fw-bold">Item 1</div>
-                        </li>
-                        <li class="list-group-item d-flex justify-content-between align-items-start">
-                            <div class="fw-bold">Item 1</div>
-                        </li>
-                        
-                      </ul>
                 </div>
             </div>
         </div>

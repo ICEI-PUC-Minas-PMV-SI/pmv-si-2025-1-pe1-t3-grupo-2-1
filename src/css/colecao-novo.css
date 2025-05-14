@@ -59,6 +59,14 @@ body {
     cursor: pointer;
     margin-top: 10px;
   }
+
+  .btn {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
   
   .primario {
     background-color: #7a0085;
