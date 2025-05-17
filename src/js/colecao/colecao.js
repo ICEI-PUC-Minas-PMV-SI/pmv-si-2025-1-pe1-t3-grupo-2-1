@@ -1,4 +1,4 @@
-import { getLocalStoreValue, setLocalStoreValue } from "../local-storage/local_storage_access.mjs"
+import { getLocalStoreValue, setLocalStoreValue } from "../local-storage/local_storage_access.js"
 
 export const getFilteredCollectionList = (name = '') => {
     const colecoes = getLocalStoreValue('colecoes')

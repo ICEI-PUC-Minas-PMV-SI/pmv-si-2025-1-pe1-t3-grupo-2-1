@@ -1,4 +1,4 @@
-import { getFilteredCollectionList } from "./colecao/colecao.mjs";
+import { getFilteredCollectionList } from "./colecao/colecao.js";
 
 const colecaoListContainer = document.getElementById('colecao-list-container');
 
