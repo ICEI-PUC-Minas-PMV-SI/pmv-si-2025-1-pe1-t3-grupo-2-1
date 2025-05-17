@@ -15,7 +15,7 @@ npm run build
 
 ## Estrutura de codigo javascript
 
-Visando manter uma estrutura organizada e de fácil manutenção, optamos por utilizar os arquivos js no tipo `module`. Ao importar o script dentro do html, deve-se informar no atributo `type` o tipo module.
+Visando manter uma estrutura organizada e de fácil manutenção, optamos por utilizar os arquivos js no padrão `module`. Ao importar o script dentro do html, deve-se informar no atributo `type` o tipo module.
 Exemplo:
 ```html
 <script type="module" src="js/lista-colecao.js"></script>
