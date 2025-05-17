@@ -1,0 +1,13 @@
+// Required
+@import "../node_modules/bootstrap/scss/functions";
+
+// Default variable overrides
+$primary: #005A84;
+$secondary: #5C007F;
+
+// Required
+@import "../node_modules/bootstrap/scss/variables";
+@import "../node_modules/bootstrap/scss/mixins";
+
+
+@import "../node_modules/bootstrap/scss/bootstrap";
