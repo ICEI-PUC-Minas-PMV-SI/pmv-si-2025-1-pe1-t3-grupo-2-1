@@ -13,5 +13,7 @@ export const getLocalStoreValue = (key) => {
 export const setLocalStoreValue = (key, value) => {
     if (value) {        
         localStorage.setItem(key, JSON.stringify(value));
+    } else {
+        localStorage.setItem(key, null);
     }
 }
