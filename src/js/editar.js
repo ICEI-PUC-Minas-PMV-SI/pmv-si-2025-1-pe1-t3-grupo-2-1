@@ -1,3 +1,3 @@
 function voltarDetalhesItem() {
-    window.location.href ="";
+    window.location.href ="../item/detalhes.html";
 }
