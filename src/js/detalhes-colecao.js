@@ -46,7 +46,7 @@ activeCollection.items.forEach(item => {
         <div class="fw-bold">${item.nome}</div>
         <small class="">${item.descricao}</small>
         <div class="d-flex flex-row gap-2">
-            ${item.categorias ? item.categorias.map(categoria => `<span class="badge bg-secondary rounded-pill">${categoria}</span>`) : ''}
+            ${item.categorias ? item.categorias.reduce((acc,categoria) => `${acc}<span class="badge bg-secondary rounded-pill">${categoria}</span>`, '') : ''}
         </div>
         <div class="w-100 d-flex flex-row gap-2 justify-content-end">
             <button type="button" id="detalhes-item-${item.id}" class="btn btn-primary btn-sm">
