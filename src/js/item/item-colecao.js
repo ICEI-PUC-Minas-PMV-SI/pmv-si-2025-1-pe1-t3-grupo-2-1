@@ -13,3 +13,15 @@ export const getActiveItemColecao = () => {
     const item = colecao.items.find(item => item.id === itemId);
     return item;
 }
+
+export const editItemColecao = (item) => {
+    const colecao = getActiveCollection();
+    if (!colecao) return null;
+
+    const index = colecao.items.findIndex(i => i.id === item.id);
+    if (index === -1) return null;
+
+    colecao.items[index] = item;
+    
+    updateCollection(colecao)
+}
