@@ -18,7 +18,7 @@
       <a href="../colecao/detalhes.html">
         <i class="bi bi-arrow-left-circle fs-5 px-2"></i>
       </a>
-      <p style="font-size:20px;" class="px-2"><u>Led Zeppelin - Coda</u></p>
+      <p style="font-size:20px;" class="px-2" id="itemTitle"></p>
       <button class="btn btn-secondary" onclick="editarValores()">Editar valores</button>
     </div>
     <div class=" d-flex justify-content-center p-2">
@@ -58,7 +58,8 @@
           <div class="modal-content">
             <div class="modal-header">
               <h5 class="modal-title">Excluir Coleção</h5>
-              <button type="button" class="fechar btn-close" data-bs-dismiss="modal" aria-label="Close"></button></div>
+              <button type="button" class="fechar btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
             <div class="modal-body">
               <p>Tem certeza que deseja Excluir essa Coleção?</p>
             </div>
@@ -69,7 +70,9 @@
           </div>
         </div>
       </div>
-      </div>
+    </div>
+    <div class="w-100 p-2 d-flex flex-row gap-1" id="categoryContainer"></div>
+    </div>
     <div class=" d-flex justify-content-center" class="Atributo 1">
       <p class="px-1 fw-bold"> Número de faixas:</p>
       <p class="px-1">8</p>

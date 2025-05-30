@@ -8,7 +8,7 @@ export const setActiveItemColecao = (itemId) => {
 }
 
 export const getActiveItemColecao = () => {
-    const itemId = localStorage.getItem('activeItemColecao');
+    const itemId = +localStorage.getItem('activeItemColecao');
     const colecao = getActiveCollection()
     const item = colecao.items.find(item => item.id === itemId);
     return item;
