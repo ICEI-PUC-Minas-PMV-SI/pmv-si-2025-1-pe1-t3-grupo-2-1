@@ -38,3 +38,14 @@ Nome da chave: `colecoes`
 ```
 
 
+Item da coleção:
+```json
+{
+  "id": 1,
+  "nome": "O Senhor dos Anéis",
+  "descricao": "Uma obra-prima da literatura de fantasia.",
+  "categorias": ["Fantasia", "Aventura"],
+  "imagem": "url-da-imagem",
+  "atributos": [ { "chave": "autor", "valor": "J.R.R. Tolkien" } ]
+}
+```

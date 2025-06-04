@@ -24,30 +24,30 @@
         <h1 >Novo item</h1>
       </div>
     </div>
-    <form  class="w-100 d-flex flex-column gap-2">
+    <form id="form-item" class="w-100 d-flex flex-column gap-2">
       <label class="border border-2 border border-dark-subtle p-4 text-center rounded-4 pe-auto">
         Clique para fazer upload
-        <input class="d-none" type="file" accept="image/*" id="imageInput" />
+        <input class="d-none" name="image" type="file" accept="image/*" id="imageInput" />
         <img class="d-none mw-100 mh-3 mt-1" id="preview" alt="Pré-visualização" />
       </label>
       <div class="mb-3">
         <label for="nome" class="form-label">Nome</label>
-        <input class="form-control" id="nome">
+        <input class="form-control" name="nome" id="nome">
       </div>
       <div class="mb-3">
         <label for="descricao" class="form-label">Descrição</label>
-        <textarea class="form-control" id="descricao" rows="3"></textarea>
+        <textarea class="form-control" name="descricao" id="descricao" rows="3"></textarea>
       </div>
 
       <div class="w-100 d-flex flex-column gap-2" id="atributos"></div>
 
       <label for="categorias">Categorias</label> 
-      <select class="form-select" id="categorias">
+      <select class="form-select" name="categorias" id="categorias">
       </select>
 
       <div class="d-flex flex-row justify-content-end gap-2 mt-3">
         <button type="button" class="btn btn-outline-primary">Cancelar</button>
-        <button type="button" class="btn btn-primary">Salvar</button>
+        <button type="submit" class="btn btn-primary">Salvar</button>
       </div>
     </form>
     <div></div>
