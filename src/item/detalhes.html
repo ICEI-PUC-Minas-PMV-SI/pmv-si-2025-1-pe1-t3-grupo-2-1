@@ -24,14 +24,14 @@
     <div class=" d-flex justify-content-center p-2">
       <img src="../img/cassetes.jpg" alt="imagem da coleção">
     </div>
-    <div class=" d-flex justify-content-center p-2 " class="center">
-      <button class="center" onclick="abrirModalEmprestado()">Marcar como Emprestado</button>
+    <div class=" d-flex justify-content-center p-2 " class="center btn btn-secondary">
+      <button class="center btn btn-secondary " onclick="abrirModalEmprestado()">Marcar como Emprestado</button>
       <div class="modal" id="modalEmprestado" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog">
           <div class="modal-content">
             <div class="modal-header">
               <h1 class="modal-title fs-5" id="exampleModalLabel">Marcar como Emprestado</h1>
-              <button type="button" class="fechar btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              <button type="button" class="fechar btn-close  " data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
               <form>
@@ -46,19 +46,19 @@
               </form>
             </div>
             <div class="modal-footer">
-              <button type="button" class="cancelar" data-bs-dismiss="modal">Cancelar</button>
-              <button type="button" class="salvar">Salvar</button>
+              <button type="button" class="cancelar btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+              <button type="button" class="salvar btn btn-secondary">Salvar</button>
             </div>
           </div>
         </div>
       </div>
-      <button class="center mx-2" onclick="abrirModalExcluir()">Excluir</button>
+      <button class="center mx-2 btn btn-secondary" onclick="abrirModalExcluir()">Excluir</button>
       <div class="modal" id="modalExcluir" tabindex="-1" role="dialog">
         <div class="modal-dialog" role="document">
           <div class="modal-content">
             <div class="modal-header">
               <h5 class="modal-title">Excluir Coleção</h5>
-              <button type="button" class="fechar btn-close" data-bs-dismiss="modal" aria-label="Close"></button></div>
+              <button type="button" class="fechar btn-close btn btn-secondary" data-bs-dismiss="modal" aria-label="Close"></button></div>
             <div class="modal-body">
               <p>Tem certeza que deseja Excluir essa Coleção?</p>
             </div>

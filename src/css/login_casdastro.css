@@ -9,6 +9,9 @@
     text-decoration: none;
     color: #ffffff;
 }
+body{
+    background-color: #F7F9FF;
+}
 
 header{
     text-align: center;
