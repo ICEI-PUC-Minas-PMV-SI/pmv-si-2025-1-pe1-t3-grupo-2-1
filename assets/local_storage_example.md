@@ -7,6 +7,7 @@ Nome da chave: `colecoes`
     "nome": "Coleção de livros",
     "descricao": "Uma coleção de livros com título, autor e ano de publicação.",
     "completa": false,
+    "categorias": ["Fantasia", "Aventura", "Ficção Científica", "Distopia", "Romance", "Clássico"],
     "items": [
         {
             "id": 1,
