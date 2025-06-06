@@ -14,13 +14,19 @@ export const getActiveItemColecao = () => {
 export const addItemColecao = (item) => {
     const colecao = getActiveCollection()
     colecao.items.push({
-        id: colecao.items.length,
+        id: colecao.items.length + 1,
         emprestado: false,
         ...item
     })
     updateCollection(colecao)
 }
 
+
+export const marcarItemComoEmprestado = (para, ate) => {
+    const item = getActiveItemColecao()
+    item.emprestado = { para, ate }
+    updateItemColecao(item.id, item)
+}
 export const updateItemColecao = (itemId, values) => {
     const colecao = getActiveCollection()
     const index = colecao.items.findIndex(item => item.id === itemId)
@@ -31,9 +37,10 @@ export const updateItemColecao = (itemId, values) => {
 
 export const deleteItemCollecao = (id) => {
     const colecao = getActiveCollection()
-    const index = olecao.items.findIndex(item => item.id === id)
+    const index = colecao.items.findIndex(item => item.id === id)
     if(index === -1) return null
     colecao.items.splice(index, 1)
+    updateCollection(colecao)
 }
 
 export const editItemColecao = (item) => {

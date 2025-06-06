@@ -36,18 +36,47 @@ activeCollection.atributos.forEach((attributo, idx) => {
 
 
 const categorias = document.getElementById('categorias')
-
-const defaultOption = document.createElement('option')
-defaultOption.innerText = 'Selecione uma categoria'
-defaultOption.setAttribute('selected', true)
-categorias.appendChild(defaultOption)
+const menuCategoria = document.getElementById('menuCategoria')
 
 activeCollection.categorias.forEach(categoria => {
-  const option = document.createElement('option')
-  option.innerText = categoria
+  const option = document.createElement('li')
+  option.innerHTML = `
+    <label>
+      <input type="checkbox" value="${categoria}">
+      ${categoria}
+    </label>
+  `
   option.value = categoria
-  categorias.appendChild(option)
+  menuCategoria.appendChild(option)
 })
+
+
+const chBoxes = document.querySelectorAll('.dropdown-menu input[type="checkbox"]');
+const dpBtn = document.getElementById('multiselectCategoria');
+let selectedCategoria = [];
+
+function handleCB() {
+    selectedCategoria = [];
+    let selectedCategoriasText = '';
+    chBoxes.forEach((checkbox) => {
+        if (checkbox.checked) {
+            selectedCategoria.push(checkbox.value);
+            selectedCategoriasText += checkbox.value + ', ';
+        }
+    });
+    dpBtn.innerText = selectedCategoria.length > 0 ? selectedCategoriasText.slice(0, -2) : 'Selecione a categoria';
+}
+
+chBoxes.forEach((checkbox) => {
+    checkbox.addEventListener('change', handleCB);
+});
+
+
+// const defaultOption = document.createElement('option')
+// defaultOption.innerText = 'Selecione uma categoria'
+// defaultOption.setAttribute('selected', true)
+// categorias.appendChild(defaultOption)
+
 
 const formItem = document.getElementById('form-item')
 
@@ -67,10 +96,11 @@ formItem.addEventListener('submit', async (e) => {
   const newItem = {
     nome: formProps.nome,
     descricao: formProps.descricao,
-    categorias: [],
+    categorias: selectedCategoria,
     imagem: url,
     atributos: atributos
 
   }
   addItemColecao(newItem)
+  window.location.href = '../colecao/detalhes.html'
 })
