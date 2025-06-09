@@ -1,12 +1,11 @@
 body {
     font-family: Arial, sans-serif;
     background-color: #f9f9f9;
-    display: flex;
-    justify-content: center;
-    padding: 20px;
+   
+   
   }
   
-  .container {
+ // .container {
     background-color: white;
     border: 2px solid #ccc;
     border-radius: 10px;
@@ -17,7 +16,7 @@ body {
   }
 
   .centralizar {
-    display: block;
+    
     margin: 10px auto;
   }
   a{
@@ -39,7 +38,7 @@ body {
   
   label {
     font-weight: bold;
-    display: block;
+    d
     margin-top: 10px;
   }
   
@@ -80,7 +79,7 @@ body {
   }
   
   .botoes {
-    display: flex;
+   
     justify-content: flex-end;
     margin-top: 20px;
   }
