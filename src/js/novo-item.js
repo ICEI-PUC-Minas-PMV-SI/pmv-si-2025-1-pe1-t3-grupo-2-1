@@ -35,7 +35,6 @@ activeCollection.atributos.forEach((attributo, idx) => {
 });
 
 
-const categorias = document.getElementById('categorias')
 const menuCategoria = document.getElementById('menuCategoria')
 
 activeCollection.categorias.forEach(categoria => {
