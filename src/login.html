@@ -4,27 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/login_casdastro.css">
+    <link href="../src/compiled/css/styles.css" rel="stylesheet">
     <title>Login</title>
 </head>
 <body>
-    <header>
-        <img src="./img/logo.png">
-    </header>
+    <header id="app-header"></header>
     <main>
-        <h2>Olá</h2>
-        <section id="ballon">
-            <img src="./img/light-bulb.png">
-            <p>Seja bem vindo ao melhor organizador de coleções da web!</p>
-        </section>
-        <section id="sectionI">
-            <img src="./img/Gemini_Generated_Image_9uhtvb9uhtvb9uht.jpeg" alt="">
-            <form action="#" method="post" id="loginForm">
-                <label for="txtemail">Email</label>
-                <input type="email" name="txtemail" id="txtemail" placeholder="exemplo@email.com">
-                <label for="txtemail">Senha</label>
-                <input type="password" name="txtsenha" id="txtsenha" placeholder="Senha">
-                <input type="submit" value="Entrar">
-            </form>
+        <div class="justify-content-center">
+            <h2>Olá</h2>
+            <section id="ballon">
+                <img src="./img/light-bulb.png">
+                <p>Seja bem vindo ao melhor organizador de coleções da web!</p>
+            </section>
+        </div>
+        
+        <div class="d-flex justify-content-center">
+            <section id="sectionI">
+                <img src="./img/Gemini_Generated_Image_9uhtvb9uhtvb9uht.jpeg" alt="">
+                <form action="#" method="post" id="loginForm">
+                    <label for="txtemail">Email</label>
+                    <input type="email" name="txtemail" id="txtemail" placeholder="exemplo@email.com">
+                    <label for="txtemail">Senha</label>
+                    <input type="password" name="txtsenha" id="txtsenha" placeholder="Senha">
+                    <input class="btn btn-secondary mt-5 mb-3" type="submit" value="Entrar">
+                </form>
+            </div>
         </section>
         <section id="sectionII">
             <a href="cadastro.html">Cadastre-se</a>
@@ -32,5 +36,6 @@
     </main> 
     <script type="module" src="./js/login.js">
     </script>
+    <script type="module" src="../src/js/header.js"></script> 
 </body>
 </html>
