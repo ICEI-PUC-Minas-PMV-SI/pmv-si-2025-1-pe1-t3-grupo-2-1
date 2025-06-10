@@ -1,20 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.12.1/font/bootstrap-icons.min.css">
-    <title>Editar item</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../compiled/css/styles.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.12.1/font/bootstrap-icons.min.css">
+  <title>Editar item</title>
 </head>
+
 <body>
-    <header id="app-header"></header>
+
+  <body>
+    <header onclick="voltarDetalhesItem()" id="app-header"></header>
     <!-- Scripts -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
-integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
-crossorigin="anonymous"></script>
-    <script src="../js/header.js"></script>
-</body>
+    <main>
+      <header id="app-header"></header>
+      <div class="container mt-1 gap-4 d-flex flex-column">
+        <div class="d-flex flex-row justify-content-start align-middle text-center gap-2 p-2">
+          <div class="col-auto d-flex flex-column justify-content-center">
+            <a href="./detalhes.html" class="">
+              <i class="fs-1 bi bi-arrow-left-circle"></i>
+            </a>
+          </div>
+          <div class="p-2">
+            <h1 class="m-0">Editar item</h1>
+          </div>
+        </div>
+        <form id="form-item" class="w-100 d-flex flex-column gap-2">
+          <label class="border border-2 border border-dark-subtle p-4 text-center rounded-4 pe-auto">
+            Clique para fazer upload
+            <input class="d-none" name="image" type="file" accept="image/*" id="imageInput" />
+            <img class="d-none mw-100 mh-3 mt-1" id="preview" alt="Pré-visualização" />
+          </label>
+          <div class="mb-3">
+            <label for="nome" class="form-label">Nome</label>
+            <input class="form-control" name="nome" id="nome">
+          </div>
+          <div class="mb-3">
+            <label for="descricao" class="form-label">Descrição</label>
+            <textarea class="form-control" name="descricao" id="descricao" rows="3"></textarea>
+          </div>
+
+          <div class="w-100 d-flex flex-column gap-2" id="atributos"></div>
+
+          <label for="categorias">Categorias</label>
+          <div class="dropdown" id="dropdownCategoria">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="multiselectCategoria"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              Selecione as categorias
+            </button>
+            <ul id="menuCategoria" class="dropdown-menu p-2" aria-labelledby="multiselectCategoria"></ul>
+          </div>
+
+          <div class="d-flex flex-row justify-content-end gap-2 mt-3">
+            <button type="button" class="btn btn-outline-primary">Cancelar</button>
+            <button type="submit" class="btn btn-primary">Salvar</button>
+          </div>
+        </form>
+      </div>
+      <!-- Scripts -->
+      <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+      <script type="module" src="../js/header.js"></script>
+      <script type="module" src="../js/editar-item.js"></script>
+  </body>
+
 </html>
