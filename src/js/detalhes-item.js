@@ -77,7 +77,7 @@ function fillItemFields() {
       value.innerText = element.valor
       
       const container = document.createElement('div')
-      container.classList.add('d-flex', 'flex-row', 'justify-start', 'gap-2')
+      container.classList.add('d-flex', 'flex-column', 'justify-start', 'gap-2')
       container.appendChild(label)
       container.appendChild(value)
 

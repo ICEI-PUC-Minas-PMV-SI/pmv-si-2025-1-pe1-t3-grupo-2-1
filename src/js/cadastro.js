@@ -1,4 +1,4 @@
-import { getLocalStoreValue, setLocalStoreValue } from './js/local-storage/local_storage_access.js';
+import { getLocalStoreValue, setLocalStoreValue } from './local-storage/local_storage_access.js';
 
 document.getElementById('cadastroForm').addEventListener('submit', function(event) {
     event.preventDefault();
