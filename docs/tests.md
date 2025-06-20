@@ -22,47 +22,207 @@ Nesta seção o grupo deverá documentar os testes de software que verificam a c
 
 ## Plano de Testes de Software
 
-Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe qual o Requisito Funcional ou não funcional que ele está verificando. Associe também a página (ou artefato) onde o teste será realizado e descreva o cenário do teste. Veja a tabela de exemplo.
-
-
-**Caso de Teste** | **CT01 - Criar conta parte 1**
+**Caso de Teste** | **CT01 - Cadastrar Novo usuário**
  :--------------: | ------------
-**Procedimento**  | 1) Acesse o endereço www.teste.com.br <br> 2) Clique em criar conta <br> 2) Preencha todos os campos do formulário <br> 3) Clique no botão "Continuar".
-**Requisitos associados** | RF-001
-**Resultado esperado** | Prosseguir para a parte 2 do cadastro
+**Procedimento**  | 1) Acesse o endereço www.teste.com.br <br> 2) Clique Cadastre-se <br> 2) Preencha todos os campos do formulário <br> 3) Clique no botão "Cadastrar".
+**Requisitos associados** | RF-001, RNF-002 e RNF-003
+**Resultado esperado** | Prosseguir para Login
 **Dados de entrada** | Inserção de dados válidos no formulário de cadastro
 **Resultado obtido** | Sucesso
 
-**Caso de Teste** | **CT02 - Criar conta parte 2**
+**Caso de Teste** | **CT02 - Realizar login de Usuário**
+ :--------------: | ------------
+**Procedimento**  | 1)Preencha todos os campos do formulário <br> 2) Clique no botão "Entrar".
+**Requisitos associados** | RF-001, RNF-002 e RNF-003
+**Resultado esperado** | Prosseguir para Cadastrar Nova Coleção
+**Dados de entrada** | Aprovação de dados já cadastrados no formulário
+**Resultado obtido** | Sucesso
+
+**Caso de Teste** | **CT03 - Cadastrar Nova Coleção**
+ :--------------: | ------------
+**Procedimento**  | 1) Clique no botão "Nova Coleção" <br>  
+**Requisitos associados** | RF-002, RNF-002 e RNF-003
+**Resultado esperado** | Página de cadastro de nova coleção se abrirá 
+**Dados de entrada** | Sem novos dados cadastrados no formulário
+**Resultado obtido** | Sucesso
+
+**Caso de Teste** | **CT04 - Definir ou Alterar atributos da Coleção**
+ :--------------: | ------------
+**Procedimento**  | 1)Adicione nome, Atributos e Categorias para sua nova coleção <br> 
+**Requisitos associados** | RF-003, RNF-002 e RNF-003
+**Resultado esperado** | Nova Coleção criada e adicionada a página de coleções do usuário
+**Dados de entrada** | Inserção de dados válidos no formulário de coleções
+**Resultado obtido** | Sucesso
+
+**Caso de Teste** | **CT05 - Visualizar lista de todos os itens da Coleção**
+ :--------------: | ------------
+**Procedimento**  | 1) Clique no botão "detalhes" para abrir a nova coleção <br> 2) Clique no botão "Novo Item" para adicionar itens a coleção <br> 3) Adicione os dados dos novos itens <br> 4) clique em "Salvar" para visualizar os itens. <br> 5) Adicione quantos itens desejar 
+**Requisitos associados** | RF-004, RNF-002 e RNF-003
+**Resultado esperado** | Visualizar itens cadastrados da nova Coleção
+**Dados de entrada** | Inserção de dados válidos no formulário de Coleção
+**Resultado obtido** | Sucesso
+
+**Caso de Teste** | **CT06 - Busca de itens dentro das coleções**
+ :--------------: | ------------
+**Procedimento**  | 1)  Clique no botão "pesquisar" <br> 2) digite o nome do item procurado <br> 
+**Requisitos associados** | RF-005, RNF-002 e RNF-003
+**Resultado esperado** | Item encontrado
+**Dados de entrada** | pesquisa de dados válidos no formulário de Coleção
+**Resultado obtido** | Sucesso
+
+**Caso de Teste** | **CT07 - Visualizar detalhes de itens da Coleção**
+ :--------------: | ------------
+**Procedimento**  | 1)  Clique no botão "detalhes" na frente do item desejado <br> 
+**Requisitos associados** | RF-006, RNF-002 e RNF-003
+**Resultado esperado** | Visualize todos os detalhes cadastrados daquele item
+**Dados de entrada** | Visualização de dados no formulário de coleção
+**Resultado obtido** | Sucesso
+
+**Caso de Teste** | **CT08 - Cadastrar um novo item dentro de uma Coleção**
+ :--------------: | ------------
+**Procedimento**  | 1) Clique no botão "Novo Item" para adicionar itens a coleção <br> 2) Adicione os dados dos novos itens <br> 3) clique em "Salvar" para visualizar os itens. <br>  
+**Requisitos associados** | RF-007, RNF-002 e RNF-003
+**Resultado esperado** | Novo item cadastrado
+**Dados de entrada** | Inserção de dados válidos no formulário de coleção
+**Resultado obtido** | Sucesso
+
+**Caso de Teste** | **CT09 - Editar detalhes de um item da coleção**
+ :--------------: | ------------
+**Procedimento**  | 1) Clique no botão "detalhes" na frente do item <br> 2) Clique no botão "editar" na parte superior direita <br> 3) Edite os dados desejados
+**Requisitos associados** | RF-008, RNF-002 e RNF-003
+**Resultado esperado** | Item editado
+**Dados de entrada** | Inserção de dados válidos no formulário de coleção
+**Resultado obtido** | Sucesso
+
+**Caso de Teste** | **CT10 - Marcar como Emprestado**
+ :--------------: | ------------
+**Procedimento**  | 1) Na página de Item da coleção clique em "Marcar como Empretado" <br> 2) Adicione a pessoa e dia do emprestimo <br> 3) Clique no botão "Salvar"
+**Requisitos associados** | RF-009, RNF-002 e RNF-003
+**Resultado esperado** |Opção "Marcar como emprestado" Adiconada
+**Dados de entrada** | Inserção de dados válidos no formulário de coleção
+**Resultado obtido** | Sucesso
+
+**Caso de Teste** | **CT11 - Excluir item da coleção**
+ :--------------: | ------------
+**Procedimento**  | 1) Na página de Item da coleção clique em "Excluir" <br> 2) No modal clique no botão "Sim" <br> 
+**Requisitos associados** | RF-010, RNF-002 e RNF-003
+**Resultado esperado** | Item Excluído
+**Dados de entrada** | Deletado dos dados do formulário de coleção
+**Resultado obtido** | Sucesso
+
+**Caso de Teste** | **CT12 - Excluir Coleção**
  :--------------: | ------------
 **Procedimento**  | 1) Preencha todos os campos do formulário <br> 2) Clique no botão "Criar conta" <br> 
-**Requisitos associados** | RF-001
+**Requisitos associados** | RF-011, RNF-002 e RNF-003
 **Resultado esperado** | Usuário cadastrado
 **Dados de entrada** | Inserção de dados válidos no formulário de cadastro
 **Resultado obtido** | Sucesso
 
+**Caso de Teste** | **CT13 - Interface Intuitiva**
+ :--------------: | ------------
+**Procedimento**  | 1) Abra a página de uma coleção qualquer <br> 2) Visualize todos os itens por suas categorias e  descrições  <br> 
+**Requisitos associados** | RF-012, RNF-001, RNF-002 e RNF-003
+**Resultado esperado** | Visualizar todos os itens com suas respectivas descrições e categorias
+**Dados de entrada** | Visualização de dados no formulário de coleção
+**Resultado obtido** | Sucesso
+
+**Caso de Teste** | **CT14 - Anexar imagens a Coleção**
+ :--------------: | ------------
+**Procedimento**  | 1) Na página de "Nova Coleção" e "Novo item" clique no botão "Clique para fazer upload"<br> 2) busque em seus arquivos a imagem escolhida<br> 
+**Requisitos associados** | RF-013, RNF-002 e RNF-003
+**Resultado esperado** | Imagem Adicionada com sucesso
+**Dados de entrada** | Inserção de dados válidos no formulário de coleção
+**Resultado obtido** | Sucesso
+
 ## Registro dos Testes de Software
 
-Esta seção deve apresentar o relatório com as evidências dos testes de software realizados no sistema pela equipe, baseado no plano de testes pré-definido. Documente cada caso de teste apresentando um vídeo ou animação que comprove o funcionamento da funcionalidade. Veja os exemplos a seguir.
 
-|*Caso de Teste*                                 |*CT01 - Criar conta parte 1*                                         |
+|*Caso de Teste*                                 |*CT01 - Cadastrar Novo usuário 1*                                         |
 |---|---|
-|Requisito Associado | RF-001 - A aplicação deve permitir que os usuários criem uma conta e gerenciem seu cadastro|
-|Link do vídeo do teste realizado: | https://1drv.ms/u/s!AhD2JqpOUvJChapRtRSQ9vPzbNLwGA?e=mxZs6t| 
+|Requisito Associado | RF-001 - O sistema deve permitir o cadastro de um novo usuário da aplicação.|
+|Link do vídeo do teste realizado: | | 
 
-|*Caso de Teste*                                 |*CT02 - Criar conta parte 2*                                        |
+|*Caso de Teste*                                 |*CT02 - Cadastrar Nova Coleção  2*                                        |
 |---|---|
-|Requisito Associado | RF-001 - A aplicação deve permitir que os usuários criem uma conta e gerenciem seu cadastro|
-|Link do vídeo do teste realizado: | https://1drv.ms/v/s!AhD2JqpOUvJChapQ8CPXL-TI_A7iVg?e=spD3Ar | 
+|Requisito Associado | RF-002 - O sistema deve permitir o cadastro de uma nova coleção.|
+|Link do vídeo do teste realizado: |  | 
 
+|*Caso de Teste*                                 |*CT03 - Definir ou Alterar atributos da Coleção  3*                                        |
+|---|---|
+|Requisito Associado | RF-003 -O sistema deve permitir que o usuário defina e altere atributos personalizados para sua coleção..|
+|Link do vídeo do teste realizado: |  | 
+
+|*Caso de Teste*                                 |*CT04 - Visualizar lista de todos os itens da Coleção  4*                                        |
+|---|---|
+|Requisito Associado | RF-004 -O sistema deve permitir a listagem de todos os itens cadastrados em uma coleção.|
+|Link do vídeo do teste realizado: |  | 
+
+|*Caso de Teste*                                 |*CT05 - Busca de itens dentro das coleções 5*                                        |
+|---|---|
+|Requisito Associado | RF-005 - O sistema deve permitir a busca e filtragem de itens dentro de uma coleção.|
+|Link do vídeo do teste realizado: |  | 
+
+|*Caso de Teste*                                 |*CT06 - Visualizar detalhes de itens da Coleção  6*                                        |
+|---|---|
+|Requisito Associado | RF-006 - O sistema deve exibir os detalhes de um item cadastrado, incluindo todos os seus atributos e informações associadas.|
+|Link do vídeo do teste realizado: |  | 
+
+|*Caso de Teste*                                 |*CT07 - Cadastrar um novo item dentro de uma Coleção  7*                                        |
+|---|---|
+|Requisito Associado | RF-007 - O sistema deve permitir o cadastro de um novo item dentro de uma coleção.|
+|Link do vídeo do teste realizado: |  | 
+
+|*Caso de Teste*                                 |*CT08 - Editar detalhes de um item da coleção  8*                                        |
+|---|---|
+|Requisito Associado | RF-008 - O sistema deve permitir a atualização dos detalhes de um item já cadastrado.|
+|Link do vídeo do teste realizado: |  | 
+
+|*Caso de Teste*                                 |*CT09 - Marcar como Emprestado
+9*                                        |
+|---|---|
+|Requisito Associado | RF-010 - O sistema deve permitir que o usuário marque um item como emprestado e registre para quem foi emprestado e a data prevista de devolução.|
+|Link do vídeo do teste realizado: |  | 
+
+
+|*Caso de Teste*                                 |*CT10 - Excluir intem da coleção  10*                                        |
+|---|---|
+|Requisito Associado | RF-011 - O sistema deve permitir a exclusão de itens cadastrados.|
+|Link do vídeo do teste realizado: |  | 
+
+|*Caso de Teste*                                 |*CT11 - Excluir Coleção 11*                                        |
+|---|---|
+|Requisito Associado | RF-012 - O sistema deve permitir a exclusão de uma coleção inteira, caso desejado pelo usuário.|
+|Link do vídeo do teste realizado: |  | 
+
+|*Caso de Teste*                                 |*CT12 - Interface Intuitiva  12*                                        |
+|---|---|
+|Requisito Associado | RF-013 - O sistema deve fornecer uma interface intuitiva para visualização da coleção por categorias, status ou outros filtros.
+RFN-001 - A aplicação deve ter uma interface intuitiva e acessível para usuários sem conhecimento técnico avançado|
+|Link do vídeo do teste realizado: |  | 
+
+|*Caso de Teste*                                 |*CT13 - Anexar imagens a Coleção  13*                                        |
+|---|---|
+|Requisito Associado | RF-014 -  	O sistema deve permitir que o usuário anexe imagens aos itens da coleção.|
+|Link do vídeo do teste realizado: |  | 
+
+|*Caso de Teste*                                 |*CT14 - Designer do Sistema  14*                                        |
+|---|---|
+|Requisito Associado | RNF-002 -  	O design da aplicação deve ser Mobile, mesmo que isto não impessa o uso correto da plataforma caso acessada em diferentes dispositivos, desktop por exemplo.|
+|Link do vídeo do teste realizado: |  | 
+
+|*Caso de Teste*                                 |*CT15 - Sistema Modular  15*                                        |
+|---|---|
+|Requisito Associado | RNF-003 -  	O sistema deve ser modular, facilitando a adição de novas funcionalidades sem impactar o código existente|
+|Link do vídeo do teste realizado: |  | 
 
 ## Avaliação dos Testes de Software
 
-Discorra sobre os resultados do teste. Ressaltando pontos fortes e fracos identificados na solução. Comente como o grupo pretende atacar esses pontos nas próximas iterações. Apresente as falhas detectadas e as melhorias geradas a partir dos resultados obtidos nos testes.
+ Os testes demonstram uma boa cobertura dos requisitos funcionais do sistema, abrangendo desde o cadastro e login de usuários até o gerenciamento completo de coleções e itens. Os casos de teste estão organizados de forma clara, com uma estrutura consistente que inclui procedimentos, requisitos associados, dados de entrada, resultados esperados e resultados obtidos. Essa padronização facilita a leitura e execução dos testes por parte da equipe de QA. <br>
 
-## Testes de unidade automatizados (Opcional)
+A sequência dos testes segue um fluxo lógico de uso da aplicação, cobrindo as funcionalidades essenciais, como a criação e edição de coleções, adição e visualização de itens, busca interna, anexos de imagens e até interações mais específicas, como marcar itens como emprestados. Além disso, o teste CT13, relacionado à interface intuitiva, demonstra atenção à experiência do usuário, o que é um diferencial positivo. Gostariamos se possível no futuro, melhorar o designer e interação do usuário, bem como adaptação para layout Desktop. <br>
 
-Se o grupo tiver interesse em se aprofundar no desenvolvimento de testes de software, ele podera desenvolver testes automatizados de software que verificam o funcionamento das funções JavaScript desenvolvidas. Para conhecer sobre testes unitários em JavaScript, leia 0 documento  [Ferramentas de Teste para Java Script](https://geekflare.com/javascript-unit-testing/).
+Em resumo,gostamos do plane de testes, com boa organização e alinhado às funcionalidades previstas no sistema. Com pequenos ajustes de consistência e a complementação com casos de erro, o documento poderá atender de forma ainda mais eficaz às necessidades de validação do software.
+
 
 # Testes de Usabilidade
 
