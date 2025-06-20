@@ -180,29 +180,29 @@ Nesta seção o grupo deverá documentar os testes de software que verificam a c
 |*Caso de Teste*                                 |*CT09 - Marcar como Emprestado
 9*                                        |
 |---|---|
-|Requisito Associado | RF-010 - O sistema deve permitir que o usuário marque um item como emprestado e registre para quem foi emprestado e a data prevista de devolução.|
+|Requisito Associado | RF-009 - O sistema deve permitir que o usuário marque um item como emprestado e registre para quem foi emprestado e a data.|
 |Link do vídeo do teste realizado: |  | 
 
 
 |*Caso de Teste*                                 |*CT10 - Excluir intem da coleção  10*                                        |
 |---|---|
-|Requisito Associado | RF-011 - O sistema deve permitir a exclusão de itens cadastrados.|
+|Requisito Associado | RF-010 - O sistema deve permitir a exclusão de itens cadastrados.|
 |Link do vídeo do teste realizado: |  | 
 
 |*Caso de Teste*                                 |*CT11 - Excluir Coleção 11*                                        |
 |---|---|
-|Requisito Associado | RF-012 - O sistema deve permitir a exclusão de uma coleção inteira, caso desejado pelo usuário.|
+|Requisito Associado | RF-011 - O sistema deve permitir a exclusão de uma coleção inteira, caso desejado pelo usuário.|
 |Link do vídeo do teste realizado: |  | 
 
 |*Caso de Teste*                                 |*CT12 - Interface Intuitiva  12*                                        |
 |---|---|
-|Requisito Associado | RF-013 - O sistema deve fornecer uma interface intuitiva para visualização da coleção por categorias, status ou outros filtros.
+|Requisito Associado | RF-012 - O sistema deve fornecer uma interface intuitiva para visualização da coleção por categorias, status ou outros filtros.
 RFN-001 - A aplicação deve ter uma interface intuitiva e acessível para usuários sem conhecimento técnico avançado|
 |Link do vídeo do teste realizado: |  | 
 
 |*Caso de Teste*                                 |*CT13 - Anexar imagens a Coleção  13*                                        |
 |---|---|
-|Requisito Associado | RF-014 -  	O sistema deve permitir que o usuário anexe imagens aos itens da coleção.|
+|Requisito Associado | RF-013 -  	O sistema deve permitir que o usuário anexe imagens aos itens da coleção.|
 |Link do vídeo do teste realizado: |  | 
 
 |*Caso de Teste*                                 |*CT14 - Designer do Sistema  14*                                        |

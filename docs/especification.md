@@ -160,24 +160,19 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-006| O sistema deve exibir os detalhes de um item cadastrado, incluindo todos os seus atributos e informações associadas.                                           | ALTO |
 |RF-007| O sistema deve permitir o cadastro de um novo item dentro de uma coleção.                                                                                      | ALTO |
 |RF-008| O sistema deve permitir a atualização dos detalhes de um item já cadastrado.                                                                                   | ALTO |
-|RF-009| O sistema deve permitir a categorização de itens da coleção.                                                                                                   | ALTO |
-|RF-010| O sistema deve permitir que o usuário exporte os dados da coleção em formato CSV.                                                                              | MÉDIO |
-|RF-011| O sistema deve permitir que o usuário marque um item como emprestado e registre para quem foi emprestado e a data prevista de devolução.                       | MÉDIO |
-|RF-012| O sistema deve permitir o cadastro de itens desejados que ainda não fazem parte da coleção.                                                                    | MÉDIO |
-|RF-013| O sistema deve permitir que o usuário marque uma coleção como "completa".                                                                                      | BAIXO |
-|RF-014| O sistema deve permitir a exclusão de itens cadastrados.                                                                                                       | MÉDIO |
-|RF-015| O sistema deve permitir a exclusão de uma coleção inteira, caso desejado pelo usuário.                                                                         | MÉDIO |
-|RF-017| O sistema deve permitir que o usuário anexe imagens aos itens da coleção.                                                                                      | MÉDIO |
-|RF-019| O sistema deve informar ao usuário os prazos de devolução de itens emprestados.                                                                                | MÉDIO |
-|RF-016| O sistema deve fornecer uma interface intuitiva para visualização da coleção por categorias, status ou outros filtros.                                         | MÉDIO |
-|RF-018| O sistema deve permitir a geração de relatórios estatísticos sobre a coleção (quantidade de itens, valor total estimado, categorias mais frequentes, etc.).    | BAIXO |
+|RF-009| O sistema deve permitir que o usuário marque um item como emprestado e registre para quem foi emprestado e a data.                       | MÉDIO |
+|RF-010| O sistema deve permitir a exclusão de itens cadastrados.                                                                                                       | MÉDIO |
+|RF-011| O sistema deve permitir a exclusão de uma coleção inteira, caso desejado pelo usuário.                                                                         | MÉDIO |
+|RF-012| O sistema deve fornecer uma interface intuitiva para visualização da coleção por categorias, status ou outros filtros.                                         | MÉDIO |
+|RF-013| O sistema deve permitir que o usuário anexe imagens aos itens da coleção.                                                                                      | MÉDIO |                                                           
+
 
 ### Requisitos não Funcionais
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
 |RNF-001| A aplicação deve ter uma interface intuitiva e acessível para usuários sem conhecimento técnico avançado	                                                 |  Alto | 
-|RNF-002| O design da aplicação deve ser responsívo, de forma a não impedir o uso correto da plataforma caso acessada em diferentes dispositivos( móveis e desktop)	 |  Alto | 
+|RNF-002| O design da aplicação deve ser Mobile, mesmo que isto não impessa o uso correto da plataforma caso acessada em diferentes dispositivos, desktop por exemplo.	 |  Alto | 
 |RNF-003| O sistema deve ser modular, facilitando a adição de novas funcionalidades sem impactar o código existente 	                                             |  Alto | 
 
 ## Restrições
