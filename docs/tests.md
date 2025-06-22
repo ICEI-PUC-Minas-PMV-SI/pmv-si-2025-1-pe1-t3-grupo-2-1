@@ -351,54 +351,55 @@ Lucas	Verificação de Item em Evento	5 (Ótimo)
 
 | Nº do Cenário | Descrição do cenário |
 |---------------|----------------------|
-| 1             | Você é uma pessoa que deseja comprar um iphone. Encontre no site um iphone e veja detalhes de localização e contato da loja que anunciando. |
-| 2             | Você é uma pessoa que deseja comprar um smartphone até R$ 2.000,00. Encontre no site smartphone's nessa faixa de preço. |
+| 1             |(Wellington - Colecionador de DVDs) Você quer assistir a um documentário sobre natureza. Use o sistema para verificar se você já possui esse título em sua coleção e onde ele está localizado (ex: sala, estante A). |
+| 2             |(Anderson - Estudioso) Você vai dar uma palestra sobre colonização. Use o sistema para localizar um mapa histórico da América do Sul e adicionar uma anotação com informações sobre a fonte. |
 
 
 
 ## Registro de Testes de Usabilidade
 
-Cenário 1: Você é uma pessoa que deseja comprar um iphone. Encontre no site um iphone e veja detalhes de localização e contato da loja que anunciando.
+Cenário 1: Consulta sobre a existência de um documentário sobre natureza na coleção e verificação da localização do item.
 
 | Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
 |---------|-----------------|----------------------|---------------------------------|
-| 1       | SIM             | 5                    | 27.87 segundos                  |
-| 2       | SIM             | 5                    | 17.11 segundos                  |
-| 3       | SIM             | 5                    | 39.09 segundos                  |
+| 1       | SIM             | 5                    | 40,33 segundos                  | 
+| 2       | SIM             | 4                    | 35,22 segundos                  |
+| 3       | SIM             | 5                    | 46,91 segundos                  |
 |  |  |  |  |
-| **Média**     | 100%           | 5                | 28.02 segundos                           |
-| **Tempo para conclusão pelo especialista** | SIM | 5 | 8.66 segundos |
+| **Média**     | 100%           | 4,67             | 40,82 segundos                           |
+| **Tempo para conclusão pelo especialista** | SIM | 5 | 12,47 segundos |
 
 
-    Comentários dos usuários: Achei o site muito bom e intuitivo. 
-    Não tive dificuldades e acho que ficou bem intuitivo.
+ Comentários dos usuários:
+"O sistema é fácil de navegar, mas seria ótimo se houvesse uma opção de busca por gênero."
 
 
-Cenário 2: Você é uma pessoa que deseja comprar um smartphone até R$ 2.000,00. Encontre no site smartphone's nessa faixa de preço.
+Cenário 2: Busca por mangá específico com filtros por universo e personagem para verificar se já consta na coleção.
 
 | Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
 |---------|-----------------|----------------------|---------------------------------|
-| 1       | SIM             | 5                    | 22.54 segundos                          |
-| 2       | SIM             | 5                    | 31.42 segundos                          |
-| 3       | SIM             | 4                    | 36.21 segundos                          |
+| 1       | SIM             | 5                    | 28,30 segundos                          |
+| 2       | SIM             | 5                    | 25,19 segundos                          |
+| 3       | SIM             | 5                    | 33,12 segundos                          |
 |  |  |  |  |
-| **Média**     | 100%           | 4.67                | 30.05 segundos                           |
-| **Tempo para conclusão pelo especialista** | SIM | 5 | 13.57 segundos |
+| **Média**     | 100%           | 	5,00               | 28,87 segundos                        |
+| **Tempo para conclusão pelo especialista** | SIM | 5 | 9,45 segundos |
 
-
-    Comentários dos usuários: O site é fácil de acessar, mas algumas páginas poderiam 
-    redirecionar a gente automaticamente para outras. Senti a falta de mais opções de filtros, 
-    tanto na hora da pesquisa, quanto depois dela, nos resultados.
+Comentários dos usuários:
+"A busca rápida facilitou muito encontrar o mangá que eu procurava."
+  
 
 ## Avaliação dos Testes de Usabilidade
 
-Tomando como base os resultados obtidos, foi possível verificar que a aplicação web apresenta bons resultados quanto à taxa de sucesso na interação dos usuários, tendo em vista que os cenários propostos foram concluídos com sucesso.
+Os resultados mostram que o sistema é eficiente para as personas testadas, com alta taxa de sucesso em todas as tarefas propostas.
 
-Além disso, a aplicação obteve também uma elevada satisfação subjetiva dos usuários no momento que realizavam os cenários propostos. Prova são as médias das avaliações em cada um dos cenários, que variou entre 4 (bom) e 5 (ótimo).
+A satisfação dos usuários foi boa, variando entre 4 e 5, indicando que o sistema atende bem às necessidades, desde os colecionadores que buscam facilidade até usuários que precisam de recursos mais avançados.
 
-Com relação ao tempo para conclusão de cada tarefa/cenário, notamos discrepância entre a média de tempo dos usuários e o tempo do especialista/desenvolvedor em todos os cenários. Tal discrepância, em certa medida, é esperada, tendo em vista que o desenvolvedor já tem prévio conhecimento de toda a interface da aplicação, do posicionamento dos elementos, lógica de organização das páginas, etc.
+Observou-se que os usuários levaram mais tempo para completar as tarefas do que o especialista, o que é esperado por conta do conhecimento prévio do desenvolvedor.
 
-Contudo, tendo em vista que a diferença foi relevante (por exemplo, 113 segundos — média usuários — contra 25 segundos — especialista — no cenário três), e ainda os comentários feitos por alguns usuários, entendemos haver oportunidades de melhoria na usabilidade da aplicação.
+No entanto, essa diferença indica que ainda há espaço para melhorar a usabilidade, tornando a navegação mais intuitiva e facilitando o acesso às funcionalidades importantes.
+
+Com essas melhorias, a experiência do usuário pode ser ainda mais rápida e satisfatória para todos os perfis.
 
 
 
