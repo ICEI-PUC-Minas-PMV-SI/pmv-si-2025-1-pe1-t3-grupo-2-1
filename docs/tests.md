@@ -226,29 +226,125 @@ Em resumo,gostamos do plane de testes, com boa organização e alinhado às func
 
 # Testes de Usabilidade
 
-O objetivo do Plano de Testes de Usabilidade é obter informações quanto à expectativa dos usuários em relação à  funcionalidade da aplicação de forma geral.
+Perfil dos Participantes:
 
-Para tanto, elaboramos quatro cenários, cada um baseado na definição apresentada sobre as histórias dos usuários, definido na etapa das especificações do projeto.
 
-Foram convidadas quatro pessoas que os perfis se encaixassem nas definições das histórias apresentadas na documentação, visando averiguar os seguintes indicadores:
+1. Wellington, 47 anos – Vendedor e colecionador de DVDs.
 
-Taxa de sucesso: responde se o usuário conseguiu ou não executar a tarefa proposta;
+2. Anderson, 40 anos – Professor universitário e estudioso de documentos históricos.
 
-Satisfação subjetiva: responde como o usuário avalia o sistema com relação à execução da tarefa proposta, conforme a seguinte escala:
+3. Ana Silva, 35 anos – Arquiteta e colecionadora de miniaturas.
 
-1. Péssimo; 
-2. Ruim; 
-3. Regular; 
-4. Bom; 
-5. Ótimo.
+4. Laura Mendes, 28 anos – Designer gráfica e fã de cultura pop.
 
-Tempo para conclusão da tarefa: em segundos, e em comparação com o tempo utilizado quando um especialista (um desenvolvedor) realiza a mesma tarefa.
+5. Lucas, 32 anos – Designer gráfico e colecionador de action figures.
 
-Objetivando respeitar as diretrizes da Lei Geral de Proteção de Dados, as informações pessoais dos usuários que participaram do teste não foram coletadas, tendo em vista a ausência de Termo de Consentimento Livre e Esclarecido.
+    Cenários de Teste
+   
+1. Cenário 1 – Consulta Rápida de Filme (Wellington)
+História de Usuário: Verificar rapidamente se possui determinado DVD antes de efetuar uma nova compra.
 
-Apresente os cenários de testes utilizados na realização dos testes de usabilidade da sua aplicação. Escolha cenários de testes que demonstrem as principais histórias de usuário sendo realizadas. Neste tópico o grupo deve detalhar quais funcionalidades avaliadas, o grupo de usuários que foi escolhido para participar do teste e as ferramentas utilizadas.
+Funcionalidades Avaliadas:
 
-> - [UX Tools](https://uxdesign.cc/ux-user-research-and-user-testing-tools-2d339d379dc7)
+Barra de busca por título;
+
+Status do item (em posse, emprestado);
+
+Navegação simples e intuitiva.
+
+Tarefa Proposta: Pesquisar pelo título “Cantando na Chuva” e identificar se o item está disponível.
+
+Expectativas:
+
+Facilidade e rapidez na busca;
+
+Identificação clara do status do item.
+
+2. Cenário 2 – Busca Avançada de Documento Histórico (Anderson)
+História de Usuário: Encontrar rapidamente um mapa antigo para utilizar em aula.
+
+Funcionalidades Avaliadas:
+
+Filtros por categoria, data e tipo de documento;
+
+Campos para anotações;
+
+Busca com múltiplos critérios.
+
+Tarefa Proposta: Localizar um “Mapa do Brasil Colonial” usando filtros específicos.
+
+Expectativas:
+
+Busca eficiente e detalhada;
+
+Facilidade de organização por categorias.
+
+3. Cenário 3 – Registro Detalhado de Miniatura (Ana Silva)
+História de Usuário: Cadastrar miniaturas com informações detalhadas para manter o acervo organizado.
+
+Funcionalidades Avaliadas:
+
+Campos personalizáveis (modelo, ano, cor, escala);
+
+Upload de imagens;
+
+Organização por categorias.
+
+Tarefa Proposta: Cadastrar uma miniatura de carro antigo, inserindo dados e imagem.
+
+Expectativas:
+
+Registro completo e personalizado;
+
+Interface visualmente atrativa.
+
+4. Cenário 4 – Consulta de Itens por Universo e Personagem (Laura Mendes)
+História de Usuário: Verificar se já possui um item antes de comprá-lo, utilizando filtros por universo e personagem.
+
+Funcionalidades Avaliadas:
+
+Filtros por universo e personagem;
+
+Exibição visual dos itens;
+
+Organização intuitiva.
+
+Tarefa Proposta: Filtrar por “Universo Marvel” e personagem “Homem de Ferro” e verificar posse de HQ específica.
+
+Expectativas:
+
+Interface moderna e visual;
+
+Busca prática e precisa.
+
+5. Cenário 5 – Verificação de Item em Evento (Lucas)
+História de Usuário: Conferir se já possui um item durante uma feira de colecionáveis, para evitar compras duplicadas.
+
+Funcionalidades Avaliadas:
+
+Busca rápida por nome ou código;
+
+Exibição de dados como valor, estado e data de aquisição;
+
+Categorização clara e eficiente.
+
+Tarefa Proposta: Verificar se possui determinada action figure antes de efetuar uma compra em evento.
+
+Expectativas:
+
+Consulta instantânea;
+
+Visualização rápida e objetiva.
+
+Cenário de	Satisfação (1 a 5)
+Wellington	Consulta Rápida de Filme	5 (Ótimo)
+Anderson	Busca Avançada de Documento Histórico	5 (Ótimo)
+Ana Silva	Registro Detalhado de Miniatura	5 (Ótimo)
+Laura Mendes	Consulta por Universo e Personagem	5 (ÓTIMO)
+Lucas	Verificação de Item em Evento	5 (Ótimo)
+
+
+
 
 
 ## Cenários de Teste de Usabilidade
