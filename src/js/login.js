@@ -9,7 +9,7 @@ document.getElementById('loginForm').addEventListener('submit', function(event) 
     const usuarioSalvo = getLocalStoreValue('usuario');
 
     if (usuarioSalvo && usuarioSalvo.email === emailDigitado && usuarioSalvo.senha === senhaDigitada) {
-        alert("Seja bem vindo novamente!");
+        localStorage.setItem('usuarioAutenticado', 'true');
         window.location.href = './index.html'; 
     } else {
         alert("Email ou senha inválidos.");

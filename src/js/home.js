@@ -19,7 +19,7 @@ const renderColecaoList = () => {
     colecaoListContainer.innerHTML = ''
     colecaoList.forEach(colecao => {
         const colecaoItem = document.createElement('div')
-        colecaoItem.className = 'card col-auto w-auto p-2'
+        colecaoItem.className = 'card col-auto w-100 p-2'
         colecaoItem.innerHTML = `
             <div class="card-body">
                 <h5 class="card-title">${colecao.nome}</h5>
@@ -39,3 +39,4 @@ colecaoList.forEach(colecao => {
         navigateToDetails(colecao.id)
     })
 })
+
