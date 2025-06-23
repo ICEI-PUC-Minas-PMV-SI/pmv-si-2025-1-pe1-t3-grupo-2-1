@@ -2,7 +2,7 @@
 
 Layout padrão do site (HTML e CSS) que será utilizado em todas as páginas com a definição de identidade visual, aspectos de responsividade e iconografia.
 
-Escolhemos um designer mais simples e limpo, para facilitar a visão do usuário. As cores que transmitem calma e tranquilidade, justamente, o que propomos com o nosso projeto, Organizar e Colecionar.  
+Escolhemos um designer mais simples e limpo, para facilitar a visão do usuário, Layout Mobile. As cores que transmitem calma e tranquilidade, justamente, o que propomos com o nosso projeto, Organizar e Colecionar.  
 
 ## Design
 
