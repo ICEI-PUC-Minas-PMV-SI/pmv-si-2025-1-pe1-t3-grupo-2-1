@@ -1,6 +1,6 @@
 # Programação de Funcionalidades
 
-As Programações foram realizadas de acordo com a relação abaixo.
+As Programações foram realizadas de acordo com a relação abaixo. O Css e Html foram feitos pela mesma pessoa relacionada.
 
 ## Requisitos Atendidos
 
