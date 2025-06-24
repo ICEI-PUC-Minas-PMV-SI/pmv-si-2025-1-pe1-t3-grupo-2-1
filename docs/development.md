@@ -2,8 +2,6 @@
 
 As Programações foram realizadas de acordo com a relação abaixo.
 
-## Exemplo
-
 ## Requisitos Atendidos
 
 As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais que relacionam o escopo do projeto com os artefatos criados:
@@ -30,13 +28,5 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 |RNF-003| O sistema deve ser modular, facilitando a adição de novas funcionalidades sem impactar o código existente| Lucas | index.html |
 
 
-## Descrição das estruturas:
-
-## Notícia
-|  **Nome**      | **Tipo**          | **Descrição**                             | **Exemplo**                                    |
-|:--------------:|-------------------|-------------------------------------------|------------------------------------------------|
-| Id             | Numero (Inteiro)  | Identificador único da notícia            | 1                                              |
-| Título         | Texto             | Título da notícia                         | Sistemas de Informação PUC Minas é o melhor                                   |
-| Conteúdo       | Texto             | Conteúdo da notícia                       | Sistemas de Informação da PUC Minas é eleito o melhor curso do Brasil                            |
-| Id do usuário  | Numero (Inteiro)  | Identificador do usuário autor da notícia | 1                                              |
+                                     |
 
