@@ -9,7 +9,7 @@ const formContainer = document.getElementById("colecao-form");
 document.getElementById("btn-novo-atributo").addEventListener("click", () => {
   const input = document.createElement("input");
   input.type = "text";
-  input.className = "form-control";
+  input.className = "form-control atributo";
   input.placeholder = "Novo atributo";
   atributosContainer.appendChild(input);
 });
@@ -18,7 +18,7 @@ document.getElementById("btn-novo-atributo").addEventListener("click", () => {
 document.getElementById("btn-nova-categoria").addEventListener("click", () => {
   const input = document.createElement("input");
   input.type = "text";
-  input.className = "form-control";
+  input.className = "form-control categoria";
   input.placeholder = "Nova categoria";
   categoriasContainer.appendChild(input);
 });

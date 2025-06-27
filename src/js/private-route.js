@@ -6,5 +6,5 @@ const isUsuárioAutenticado = () => {
 
 if(!isUsuárioAutenticado()) {
     // Usuário autenticado, redirecionar para a página de login
-    window.location.href = '/src/login.html';
+    window.location.href = '/login.html';
 }
